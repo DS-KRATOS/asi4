@@ -78,6 +78,8 @@ body {
 /* Desktop: 3 per row */
 @media (min-width: 992px) {
   .box {
-    flex: 1 1 calc(33.333% - 10px);
+    flex: 1 1 30%;   /* instead of calc(33.333% - 10px) */
+    max-width: 30%;
   }
 }
+
